@@ -1,6 +1,7 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
+
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
@@ -27,8 +28,12 @@ console.log(passwordStart)
 //WHEN prompted for the length of the password
 //THEN I choose a length of at least 8 characters and no more than 128 characters
 if (passwordStart > 8 && passwordStart < 128){
-  confirm("Would you like lowercase letters?")
-} else alert("Your password must be between 8 and 128 characters long.")
+  var confrimLC=confirm("Would you like lowercase letters?")
+} else alert("Your password must be between 8 and 128 characters long.");
+
+if (confrimLC===true){
+  var confirmUC=confirm("Would you like uppercase letters?")
+}
 //WHEN asked for character types to include in the password
 //THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
 //WHEN I answer each prompt
