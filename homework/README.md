@@ -19,4 +19,4 @@ This project used HTML and Javascript.
 ## Code Examples
 Some aspect of this project that I gained a better understanding of are "if else" statements and window prompts and alerts. Here is an example of some of my code. 
 
-![Code Example](Screenshot(12).png)
+![Code Example](https://github.com/kuyadevin/Password-Generator/blob/main/homework/Develop/Screenshot%20(12).png)
