@@ -16,10 +16,9 @@ To start the generator, you press the "Generate Password" button and then a prom
 ## Technology Used
 This project used HTML and Javascript.
 
-## Code Examples
-Some aspect of this project that I gained a better understanding of are "if else" statements and window prompts and alerts. Here is an example of some of my code. 
+## Examples 
 
-![Code Example](https://github.com/kuyadevin/Password-Generator/blob/main/homework/Develop/Screenshot%20(12).png)
+![Screenshot](https://github.com/kuyadevin/Password-Generator/blob/main/homework/Develop/Screenshot%20(27).png)
 
 ## Problem's Faced
 I was having an extrememly hard time getting the password to actually generate. I was not able to complete that function by the time the assignment was due.
