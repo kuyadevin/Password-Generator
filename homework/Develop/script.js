@@ -18,6 +18,12 @@ function generatePassword() {
   }
 
   var userWantsNumbers = window.confirm("Would you like to include numbers in your password?")
+
+  var userWantsSymbols = window.confirm("Would you like to include symbols in your password?")
+
+  var userWantsLowercase = window.confirm("Would you like to include lowercase letters in your password?")
+
+  var userWantsUppercase = window.confirm("Would you like to include uppercase letters in your password?")
 }
 
 // Write password to the #password input
