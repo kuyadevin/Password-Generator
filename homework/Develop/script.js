@@ -26,6 +26,25 @@ function generatePassword() {
   var symbolList = ["!", "@", "#", "$", "%", "^", "&", "8"]
   var lowercaseList = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
   var uppercaseList = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
+
+  var userChoices = []
+
+  if (userWantsNumbers === true) {
+    userChoices.push(numberList)
+  }
+
+  if (userWantsSymbols === true) {
+    userChoices.push(symbolList)
+  }
+
+  if (userWantsLowercase === true) {
+    userChoices.push(lowercaseList)
+  }
+
+  if (userWantsUppercase === true) {
+    userChoices.push(uppercaseList)
+  }
+
 }
 
 // Write password to the #password input
