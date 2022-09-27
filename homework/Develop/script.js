@@ -1,6 +1,10 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
+function randomInt(min, max) {
+  return Math.floor(Math.random() * (max - min) + min)
+}
+
 function generatePassword() {
 
   var userInput = window.prompt("How many characters would you like your password to be?")
@@ -45,6 +49,11 @@ function generatePassword() {
     userChoices.push(uppercaseList)
   }
 
+  var generatePassword = ""
+
+  for (var i = 0; i < passwordLength; i++) {
+    Math.random
+  }
 }
 
 // Write password to the #password input
