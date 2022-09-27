@@ -1,6 +1,12 @@
 # Password Generator
 This was a project where we were given some javascript for a password generrator and were supposed to figure out how to fix it.
 
+## Deployed Link
+[Devin's Password Generator] (https://kuyadevin.github.io/Password-Generator/)
+
+## Technology Used
+This project used HTML and Javascript.
+
 # Requirements
 Some of the parameters we needed to include were as followed.
 Using prompts:
@@ -15,10 +21,6 @@ To start the generator, you press the "Generate Password" button and then a prom
 
 ## Technology Used
 This project used HTML and Javascript.
-
-## Examples 
-
-![Screenshot](https://github.com/kuyadevin/Password-Generator/blob/main/homework/Develop/Screenshot%20(27).png)
 
 ## Problem's Faced
 I was having an extrememly hard time getting the password to actually generate. I was not able to complete that function by the time the assignment was due.
