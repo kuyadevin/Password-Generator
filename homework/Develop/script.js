@@ -58,15 +58,19 @@ function generatePassword() {
     userChoices.push(uppercaseList)
   }
 
+  if (userChoices.length === 0) {
+    userChoices.push(lowercaseList)
+  }
   var generatedPassword = ""
 
   for (var i = 0; i < passwordLength; i++) {
     var randomList = getRandomItem(userChoices)
     var randomChar = getRandomItem(randomList)
-    console.log(randomChar)
+    generatedPassword += randomChar
   }
-}
 
+  console.log(generatedPassword)
+}
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
