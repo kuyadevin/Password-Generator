@@ -16,6 +16,8 @@ function generatePassword() {
     window.alert("Password must be between 8 and 128 characters!")
     return
   }
+
+  var userWantsNumbers = window.confirm("Would you like to include numbers in your password?")
 }
 
 // Write password to the #password input
