@@ -69,7 +69,7 @@ function generatePassword() {
     generatedPassword += randomChar
   }
 
-  console.log(generatedPassword)
+  return generatedPassword
 }
 // Write password to the #password input
 function writePassword() {
