@@ -7,7 +7,7 @@ function randomInt(min, max) {
     min = 0
   }
   var rand = Math.random()
-  return Math.floor(min + (1 - rand) + rand * max)
+  return Math.floor(min * (1 - rand) + rand * max)
 }
 
 function getRandomItem(list) {
@@ -58,7 +58,7 @@ function generatePassword() {
     userChoices.push(uppercaseList)
   }
 
-  var generatePassword = ""
+  var generatedPassword = ""
 
   for (var i = 0; i < passwordLength; i++) {
     var randomList = getRandomItem(userChoices)
